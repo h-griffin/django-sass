@@ -1,0 +1,16 @@
+// global
+
+@tailwind base;
+@tailwind components;
+
+
+$primary-color: red;
+
+body{
+    padding:20px 2px 60px;
+    margin: 0;
+    color: $primary-color;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@tailwind utilities;
